@@ -3,7 +3,6 @@ const searchInput = document.getElementById('searchInput');
 const searchBtn = document.getElementById('searchBtn');
 const recipeContainer = document.getElementById('recipeContainer');
 
-// Event listener for search button
 searchBtn.addEventListener('click', () => {
     const searchQuery = searchInput.value.trim();
     if (searchQuery !== '') {
@@ -28,7 +27,6 @@ async function searchRecipes(query) {
     }
 }
 
-// Function to display recipes
 function displayRecipes(recipes) {
     recipeContainer.innerHTML = '';
     recipes.forEach(recipe => {

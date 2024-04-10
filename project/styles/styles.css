@@ -75,6 +75,6 @@ button:hover {
 .recipe-card p {
     margin-top: 10px;
     text-align: center;
-    color: #333; /* Color del texto del resumen */
+    color: #333;
 }
 
